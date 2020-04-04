@@ -81,6 +81,9 @@ dataset/real/gMission*: incldues the datasets of gMission
 
 Please refer to the source code for the format of the dataset.
 
+Related resources
+------------------------
+We have maintained a paper list of the studies on spatial crowdsourcing. [link](https://github.com/BUAA-BDA/SpatialCrowdsourcing-Survey)
 
 
 Contact
