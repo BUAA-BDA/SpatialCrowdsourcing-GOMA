@@ -47,7 +47,7 @@ Description of the datasets
 
 Python: 2.7
 
-### Synthetic datasets
+### Synthetic dataset
 
 dataset/synthetic: a sample of our synthetic dataset (\#2)
 
@@ -55,7 +55,7 @@ dataset/genDataSynthetic.py: a script to generate the synthetic datasets
 
 Please refer to genDataSynthetic.py for the format of the dataset.
 
-### Real datasets
+### Real dataset
 
 dataset/real/EverySender*: includes the datasets of EverySende 
 
