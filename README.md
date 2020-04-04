@@ -2,15 +2,33 @@ GOMA: Two-sided Online Micro-Task Assignment in Spatial Crowdsourcing
 ========================================================================
 
 This repository stores the source code of the solutions to the problem called GOMA in the following papers.
-If you use our source code or dataset, please consider citing our papers.
 
-[1] **Online mobile Micro-Task Allocation in spatial crowdsourcing.**
-*Yongxin Tong, Jieying She, Bolin Ding, Libin Wang, Lei Chen.* ICDE 2016: 49-60. [link](https://doi.org/10.1109/ICDE.2016.7498228)
- 
-[2] **Two-sided Online Micro-Task Assignment in Spatial Crowdsourcing.**
+[1] **Two-sided Online Micro-Task Assignment in Spatial Crowdsourcing.**
 *Yongxin Tong, Yuxiang Zeng, Bolin Ding, Libin Wang, Lei Chen.* IEEE Transactions on Knowledge and Data Engineering, 2019. [link](https://doi.org/10.1109/TKDE.2019.2948863)
  
-
+[2] **Online mobile Micro-Task Allocation in spatial crowdsourcing.**
+*Yongxin Tong, Jieying She, Bolin Ding, Libin Wang, Lei Chen.* ICDE 2016: 49-60. [link](https://doi.org/10.1109/ICDE.2016.7498228)
+  
+If you find our work helpful in your research, please consider citing our papers and the bibtex are listed below:
+```  
+@article{tong2019two,  
+  title={Two-sided Online Micro-Task Assignment in Spatial Crowdsourcing},  
+  author={Tong, Yongxin and Zeng, Yuxiang and Ding, Boling and Wang, Libin and Chen, Lei},  
+  journal={IEEE Transactions on Knowledge and Data Engineering},  
+  year={2019},  
+}  
+@inproceedings{DBLP:conf/icde/TongSDWC16,
+  author    = {Yongxin Tong and
+               Jieying She and
+               Bolin Ding and
+               Libin Wang and
+               Lei Chen},
+  title     = {Online mobile Micro-Task Allocation in spatial crowdsourcing},
+  booktitle = {{ICDE}},
+  pages     = {49--60},
+  year      = {2016},
+}
+```  
 
 Usage of the algorithms
 ---------------
