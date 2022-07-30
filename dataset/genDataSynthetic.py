@@ -234,24 +234,21 @@ def genPts(T, m, n, minPts, maxPts):
 
 
 def genPts_Normal(T, m, n, pt, sigma=3.75):
-	minGenerator = normalGenerator(pt*0.1, sigma/40.0)
-	maxGenerator = normalGenerator(pt, sigma/10.0)
-	minPts = minGenerator.gen(m*CFDS.per, 10**-4, CFDS.umax)
-	maxPts = maxGenerator.gen(m*CFDS.per, pt*0.1, CFDS.umax)
+	minGenerator = normalGenerator(pt, sigma)
+	minPts = minGenerator.gen(m*CFDS.per, pt*0.1, CFDS.umax)
+	maxPts = minPts
 	return genPts(T, m, n, minPts, maxPts)
 
 def genPts_Uniform(T, m, n, pt):
-	minGenerator = uniformGenerator(0, pt*0.1)
 	maxGenerator = uniformGenerator(0, pt*2.0)
-	minPts = minGenerator.gen(m*CFDS.per, 10**-4, CFDS.umax)
 	maxPts = maxGenerator.gen(m*CFDS.per, pt*0.1, CFDS.umax)
+	minPts = maxPts
 	return genPts(T, m, n, minPts, maxPts)
 	
 def genPts_Exponential(T, m, n, pt):
-	minGenerator = expGenerator(pt*0.1)
 	maxGenerator = expGenerator(pt)
-	minPts = minGenerator.gen(m*CFDS.per, 10**-4, CFDS.umax)
 	maxPts = maxGenerator.gen(m*CFDS.per, pt*0.1, CFDS.umax)
+	minPts = maxPts
 	return genPts(T, m, n, minPts, maxPts)
 	
 def genTasks(m, n, wids, wlocs, rw):
