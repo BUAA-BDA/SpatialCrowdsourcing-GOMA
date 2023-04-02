@@ -1,7 +1,7 @@
 GOMA: Two-sided Online Micro-Task Assignment in Spatial Crowdsourcing
 ========================================================================
 
-This repository stores the source code of the solutions to the problem called GOMA in the following papers.
+This repository stores the source code of the solutions to the problem called GOMA in the following papers. Our appendix (i.e., the full paper) has also been uploaded here (i.e., **TKDE-goma-Appendix.pdf**).
 
 [1] **Two-sided Online Micro-Task Assignment in Spatial Crowdsourcing.**
 *Yongxin Tong, Yuxiang Zeng, Bolin Ding, Libin Wang, Lei Chen.* IEEE Transactions on Knowledge and Data Engineering, 2019. [link](https://doi.org/10.1109/TKDE.2019.2948863)
